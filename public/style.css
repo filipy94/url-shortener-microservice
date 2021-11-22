@@ -1,0 +1,52 @@
+:root {
+	--bg-color: #161414;
+	--color: rgb(228, 215, 215);
+}
+
+body {
+  font-family: sans-serif;
+	font-size: 16px;
+	color: var(--color);
+	background-color: var(--bg-color);
+	text-align: center;
+	line-height: 1.4em;
+	margin: 0;
+	max-height: 100vh;
+}
+
+.title {
+	padding: 1vh 0 5vh 0;
+}
+.container {
+	padding: 5vh 0 5vh 0;
+}
+footer {
+	padding-top: 10vh;
+}
+
+h3 {
+  margin-top: 30px;
+}
+h2 {
+	padding-top: 2vh;
+	margin-bottom: 3px;
+}
+p {
+	line-height: 2em;
+}
+code {
+  font-family: monospace;
+  padding: 8px;
+  background-color: rgb(78, 75, 75);
+  border-radius: 15px;
+}
+a {
+	text-decoration: none;
+	color: #5ca7da;
+}
+hr, fieldset {
+	margin: 0 30vw 0 30vw;
+}
+#url_input {
+	padding: 3px 60px 3px 5px;
+}
